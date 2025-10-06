@@ -1,0 +1,192 @@
+[
+  {
+    "tag": "snippets-1 t.me/bestip_one",
+    "type": "vless",
+    "server": "www.okcupid.com",
+    "server_port": 443,
+    "uuid": "0199b968-eb78-4c16-f5cc-ede644e4baa4",
+    "tls": {
+      "enabled": true,
+      "server_name": "snippets.zhengshangchen.top",
+      "insecure": false
+    },
+    "transport": {
+      "type": "ws",
+      "headers": {
+        "Host": "snippets.zhengshangchen.top"
+      },
+      "path": "/snippets?ip=proxyip:port(443)&nat64=6to4"
+    }
+  },
+  {
+    "tag": "snippets-2 t.me/bestip_one",
+    "type": "vless",
+    "server": "www.shopify.com",
+    "server_port": 443,
+    "uuid": "0199b968-eb78-4c16-f5cc-ede644e4baa4",
+    "tls": {
+      "enabled": true,
+      "server_name": "snippets.zhengshangchen.top",
+      "insecure": false
+    },
+    "transport": {
+      "type": "ws",
+      "headers": {
+        "Host": "snippets.zhengshangchen.top"
+      },
+      "path": "/snippets?ip=proxyip:port(443)&nat64=6to4"
+    }
+  },
+  {
+    "tag": "snippets-3 t.me/bestip_one",
+    "type": "vless",
+    "server": "www.udacity.com",
+    "server_port": 443,
+    "uuid": "0199b968-eb78-4c16-f5cc-ede644e4baa4",
+    "tls": {
+      "enabled": true,
+      "server_name": "snippets.zhengshangchen.top",
+      "insecure": false
+    },
+    "transport": {
+      "type": "ws",
+      "headers": {
+        "Host": "snippets.zhengshangchen.top"
+      },
+      "path": "/snippets?ip=proxyip:port(443)&nat64=6to4"
+    }
+  },
+  {
+    "tag": "snippets-4 t.me/bestip_one",
+    "type": "vless",
+    "server": "download.yunzhongzhuan.com",
+    "server_port": 8443,
+    "uuid": "0199b968-eb78-4c16-f5cc-ede644e4baa4",
+    "tls": {
+      "enabled": true,
+      "server_name": "snippets.zhengshangchen.top",
+      "insecure": false
+    },
+    "transport": {
+      "type": "ws",
+      "headers": {
+        "Host": "snippets.zhengshangchen.top"
+      },
+      "path": "/snippets?ip=proxyip:port(443)&nat64=6to4"
+    }
+  },
+  {
+    "tag": "snippets-5 t.me/bestip_one",
+    "type": "vless",
+    "server": "cf.0sm.com",
+    "server_port": 443,
+    "uuid": "0199b968-eb78-4c16-f5cc-ede644e4baa4",
+    "tls": {
+      "enabled": true,
+      "server_name": "snippets.zhengshangchen.top",
+      "insecure": false
+    },
+    "transport": {
+      "type": "ws",
+      "headers": {
+        "Host": "snippets.zhengshangchen.top"
+      },
+      "path": "/snippets?ip=proxyip:port(443)&nat64=6to4"
+    }
+  },
+  {
+    "tag": "snippets-6 t.me/bestip_one",
+    "type": "vless",
+    "server": "www.wto.org",
+    "server_port": 2083,
+    "uuid": "0199b968-eb78-4c16-f5cc-ede644e4baa4",
+    "tls": {
+      "enabled": true,
+      "server_name": "snippets.zhengshangchen.top",
+      "insecure": false
+    },
+    "transport": {
+      "type": "ws",
+      "headers": {
+        "Host": "snippets.zhengshangchen.top"
+      },
+      "path": "/snippets?ip=proxyip:port(443)&nat64=6to4"
+    }
+  },
+  {
+    "tag": "snippets-7 t.me/bestip_one",
+    "type": "vless",
+    "server": "162.159.62.201",
+    "server_port": 2083,
+    "uuid": "0199b968-eb78-4c16-f5cc-ede644e4baa4",
+    "tls": {
+      "enabled": true,
+      "server_name": "snippets.zhengshangchen.top",
+      "insecure": false
+    },
+    "transport": {
+      "type": "ws",
+      "headers": {
+        "Host": "snippets.zhengshangchen.top"
+      },
+      "path": "/snippets?ip=proxyip:port(443)&nat64=6to4"
+    }
+  },
+  {
+    "tag": "snippets-8 t.me/bestip_one",
+    "type": "vless",
+    "server": "162.159.44.22",
+    "server_port": 2083,
+    "uuid": "0199b968-eb78-4c16-f5cc-ede644e4baa4",
+    "tls": {
+      "enabled": true,
+      "server_name": "snippets.zhengshangchen.top",
+      "insecure": false
+    },
+    "transport": {
+      "type": "ws",
+      "headers": {
+        "Host": "snippets.zhengshangchen.top"
+      },
+      "path": "/snippets?ip=proxyip:port(443)&nat64=6to4"
+    }
+  },
+  {
+    "tag": "snippets-9 t.me/bestip_one",
+    "type": "vless",
+    "server": "104.18.42.163",
+    "server_port": 8443,
+    "uuid": "0199b968-eb78-4c16-f5cc-ede644e4baa4",
+    "tls": {
+      "enabled": true,
+      "server_name": "snippets.zhengshangchen.top",
+      "insecure": false
+    },
+    "transport": {
+      "type": "ws",
+      "headers": {
+        "Host": "snippets.zhengshangchen.top"
+      },
+      "path": "/snippets?ip=proxyip:port(443)&nat64=6to4"
+    }
+  },
+  {
+    "tag": "snippets-10 t.me/bestip_one",
+    "type": "vless",
+    "server": "www.speedtest.net",
+    "server_port": 2087,
+    "uuid": "0199b968-eb78-4c16-f5cc-ede644e4baa4",
+    "tls": {
+      "enabled": true,
+      "server_name": "snippets.zhengshangchen.top",
+      "insecure": false
+    },
+    "transport": {
+      "type": "ws",
+      "headers": {
+        "Host": "snippets.zhengshangchen.top"
+      },
+      "path": "/snippets?ip=proxyip:port(443)&nat64=6to4"
+    }
+  }
+]
