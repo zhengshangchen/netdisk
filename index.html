@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub TXT 文件列表</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    h1 { color: #333; }
+    ul { list-style-type: none; padding: 0; }
+    li { margin: 5px 0; }
+    a { text-decoration: none; color: #1a73e8; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h1>GitHub TXT 文件列表</h1>
+  <ul id="fileList"></ul>
+  <p id="error" style="color:red;"></p>
+
+  <script>
+    const owner = 'zhengshangchen'; // 替换成你的 GitHub 用户名
+    const repo = 'netdisk';       // 替换成你的仓库名
+    const path = '';             // TXT 文件所在文件夹，如果在根目录就留空 ''
+
+    const fileListEl = document.getElementById('fileList');
+    const errorEl = document.getElementById('error');
+
+    async function fetchFiles() {
+      try {
+        const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+        const res = await fetch(apiUrl);
+        if (!res.ok) throw new Error(`GitHub API 返回错误: ${res.status}`);
+        const files = await res.json();
+
+        // 遍历文件
+        files.forEach(file => {
+          if (file.name.endsWith('.txt')) {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = file.download_url; // raw.githubusercontent.com 下载链接
+            a.textContent = file.name;
+            a.target = '_blank';
+            li.appendChild(a);
+            fileListEl.appendChild(li);
+          }
+        });
+
+        if (fileListEl.children.length === 0) {
+          fileListEl.innerHTML = '<li>未找到 TXT 文件</li>';
+        }
+      } catch (err) {
+        console.error(err);
+        errorEl.textContent = '无法获取文件列表，请检查 GitHub 仓库和路径';
+      }
+    }
+
+    fetchFiles();
+  </script>
+</body>
+</html>
